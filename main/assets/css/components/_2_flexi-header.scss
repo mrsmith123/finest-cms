@@ -19,6 +19,7 @@ Usage: codyhouse.co/license
 .f-header {
   height: var(--f-header-height);
   z-index: var(--zindex-header);
+  background-color: #f5f5f5;
 }
 
 .f-header__mobile-content { // logo + menu button on small devices

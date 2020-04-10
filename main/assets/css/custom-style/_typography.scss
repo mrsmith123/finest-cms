@@ -32,8 +32,8 @@
 @supports(--css: variables) {
   :root {
     @include breakpoint(md) {
-      --text-base-size: 1.25em;
-      --text-scale-ratio: 1.25;
+      --text-base-size: 1em;
+      --text-scale-ratio: 125;
     }
   }
 }

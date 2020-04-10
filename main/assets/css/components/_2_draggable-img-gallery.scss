@@ -8,8 +8,9 @@ Usage: codyhouse.co/license
 -------------------------------- */
 
 :root {
-  --drag-gallery-img-width: 260px; // single image width
-  --drag-gallery-img-gap: var(--space-lg);   // gap
+  --drag-gallery-img-width: 200px; // single image width
+  --drag-gallery-img-height: 200px; // single image width
+  --drag-gallery-img-gap: 1px;   // gap
 }
 
 @supports(--css: variables) {
@@ -19,7 +20,7 @@ Usage: codyhouse.co/license
     }
 
     @include breakpoint(md) {
-      --drag-gallery-img-width: 520px;
+      --drag-gallery-img-width: 320px;
     }
   }
 }
